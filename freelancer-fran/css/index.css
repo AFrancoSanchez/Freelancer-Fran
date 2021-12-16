@@ -1,0 +1,160 @@
+  
+  
+
+  /*-------------------------*/
+ /*--  Custom Properties  --*/
+/*-------------------------*/
+
+:root {
+	--blanco: #ffffff;
+	--gris: #757575;
+	--primario: #0F2D56;
+	--secundario: #0D284E;
+	--terciario: #9FC0EE;
+	--fondo: #9FC0EE;
+	--oscuro: #07162B;	
+}
+
+
+
+  /*--------------------*/
+ /*--  Media Querie  --*/
+/*--------------------*/
+
+@media (max-width: 682px) {
+	
+  .navegacion-principal {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+}
+
+
+
+  /*-----------------------*/
+ /*--  Font Properties  --*/
+/*-----------------------*/
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 16; /** 1rem = 10px **/
+	font-family: 'Montserrat';
+	background-color: var(--fondo);
+}
+
+
+
+  /*---------------*/
+ /*--   Header  --*/
+/*---------------*/
+
+header, table, th, td {
+	background-color: var(--primario);
+	border: 1px solid var(--primario);
+}
+
+.titulo {
+	font-size: 3rem;
+	color: var(--blanco);
+}
+
+.hspan {
+	font-size: 2rem;
+	color: var(--gris);
+}
+
+
+
+  /*----------------*/
+ /*--     Nav    --*/
+/*----------------*/
+
+
+
+.contenedor {
+	width: 120rem;
+	margin: 0 auto;	
+}
+
+.nav-bg {
+	background-color: var(--secundario);
+}
+
+.navegacion-principal {
+	display: flex;
+	justify-content: space-around;
+}
+
+.navegacion-principal a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: #ffffff;
+	padding: .5rem;
+}
+
+.navegacion-principal a:hover {
+	background-color: var(--terciario);
+	color: var(--primario);
+}
+
+
+
+  /*----------------*/
+ /*--    Table   --*/
+/*----------------*/
+
+table, td, th {
+	color: var(--blanco);
+	border: 1px solid var(--blanco);
+	width: 40rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.margin-top {
+	margin: 5rem 0 0 0;
+}
+
+.margin-form {
+	margin: 2rem auto;
+}
+
+.centrado {
+	text-align: center;
+}
+
+
+
+  /*----------------*/
+ /*--   Footer   --*/
+/*----------------*/
+
+footer {
+	color: white;
+	background-color: var(--primario);
+}
+
+.footer-sanchez {
+	weight: bold;
+}
+
+.footer-dev {
+	color: #757575;
+	weight: bold;
+}
+
+
+
+  /*----------------*/
+ /*--    ID's    --*/
+/*----------------*/
+
+#titulo {
+	font-size: 3rem;
+	color: white
+}

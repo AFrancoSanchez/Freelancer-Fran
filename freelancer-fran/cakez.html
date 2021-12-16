@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakez</title>
+    <style>
+        table, th, td {
+            border: 1px solid black ;
+        }
+        table {
+            background-color: plum;
+        }
+        tr {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cakez</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-letter-z" width="100" height="100" viewBox="0 0 24 24" stroke-width="0.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 4h10l-10 16h10" />
+            </svg>
+    </header>
+
+    <nav>
+        <a href="#ofrecemos">Ver productos</a>
+        <a href="#precios">Precios</a>
+        <a href="#about">Sobre nosotros</a>
+        <a href="C:\Users\fran\Desktop\Freelancer-fran\demo.html">Demo</a>
+    </nav>
+
+    <section>
+        <article>
+            <img src="img/img-cake.jpg" width="200" height="200">
+            <img src="img/img-cake.jpg" width="200" height="200">
+            <img src="img/img-cake.jpg" width="200" height="200">
+        </article>
+    </section>
+
+    <hr>
+
+    <form>
+        <fieldset>
+            <label>¡Pedí tu orden!</label>
+            <input list="torta" placeholder="Elegí tu torta">
+                <datalist id=torta>
+                <option value="Chocolate">
+                <option value="Vainilla">
+                <option value="Marmolado">
+                <option value="Personalizado">
+                </datalist>
+        </fieldset>
+    </form>
+
+    <section  id="ofrecemos"> 
+        <h2>¿Que ofrecemos?</h2>
+            <ol>
+                <li>Tamaño del pastel</li>
+                    <ol>
+                        <li style="list-style:lower-roman;">Pequeño</li>
+                        <li>Mediano</li>
+                        <li>Grande</li>
+                    </ol>
+                <li>Colores pasta ballina</li>
+                    <ol>
+                        <li style="list-style: lower-alpha;">Rojo</li>
+                        <li>Amarillo</li>
+                        <li>Magenta</li>
+                    </ol>
+                <li>Ingredientes del pastel</li>
+                    <ol>
+                        <li style="list-style: lower-greek;">Sub elemento 1</li>
+                        <li>Sub elemento 2</li>
+                        <li>Sub elemento 3</li>
+                    </ol>
+            </ol>
+    </section>
+
+    <table id="precios" style="width: 300px;">
+        <tr>
+            <thead>
+                <th>Producto</th>
+                <th>Precio</th>
+            </thead>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Pastel</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Desayuno</td>
+                <td>$800</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>$1.300</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <section id="#about">
+        <div>
+            <h2>Pasteleria</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nisi distinctio fugit porro quaerat laboriosam.</p>
+        </div>
+    </section>
+    
+    <section>
+        <div>
+            <h2>Postres</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nisi distinctio fugit porro quaerat laboriosam.</p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>Preparacion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nisi distinctio fugit porro quaerat laboriosam.</p>
+        </div>
+    </section>
+</body>
+</html>
