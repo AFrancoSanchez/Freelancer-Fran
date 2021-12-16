@@ -1,0 +1,123 @@
+/* - - Custom Properties - - */
+:root {
+	--blanco: #ffffff;
+	--negro: #000000;
+	--gris: #757575;
+	--primario: #4E342E;
+	--primario-2: #F8BBD0;
+	--secundario: #F48FB1;
+	--terciario: #BBDEFB;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 16;
+	font-family: 'Nunito';
+	text-align: center;
+}
+
+header {
+	background-color: var(--primario);
+	border: 1px solid var(--primario);
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+footer {
+	color: #ffffff;
+	background-color: var(--primario);
+	border: 1px solid var(--primario);
+}
+
+
+  /*----------------*/
+ /*--   Header   --*/
+/*----------------*/
+
+
+.titulo {
+	color: var(--secundario);
+	font-size: 4rem;
+	text-align: center;
+}
+
+.span-h1, .span-lala {
+	color: var(--primario-2);
+	font-weight: bold;
+}
+
+.span-h1, h2 {
+	font-size: 3rem;
+}
+
+
+
+
+  /*----------------*/
+ /*--     Nav    --*/
+/*----------------*/
+
+.contenedor {
+	margin: 0 auto;
+	width: 120rem;
+}
+
+.nav-bg {
+	background-color: var(--secundario);
+}
+
+.navegacion-principal {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.navegacion-principal a {
+	font-size: 2rem;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+
+.span-pasteleria {
+	color: var(--secundario);
+	font-weight: bold;
+}
+
+  /*-----------------*/
+ /*--  Contenido  --*/
+/*-----------------*/
+
+
+/*.grid div {
+	display: block;
+	padding: 5rem;
+	border: 1px solid black;
+}*/
+
+.img-producto {
+	padding: 0.5rem;
+	width: 10rem;
+	margin: 0, auto;
+}
+
+.img-producto:hover {
+	padding: 1rem;
+	width: 12rem;
+}
+
+.grid div:hover {
+	border: red;
+}
+
+.grid {
+	display: block;
+	grid-template-columns: 30% 30% 30%;
+}
